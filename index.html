@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
+    <title>Cyber Avatar Maker</title>
+    <meta name="description" content="Crie sua foto de perfil com nosso filtro charmoso para Telegram :D">
+    <meta property="og:image" content="./banner.png">
+    <meta name="author" content="Yuri Faria">
+    <meta name="keywords" content="Semcomp, Semcomp Beta, Avatar, Telegram, Filtro, Yuri Faria">
+    <meta property="og:title" content="Cyber Avatar Maker">
+    <meta property="og:description" content="Crie sua foto de perfil com nosso filtro charmoso para Telegram :D">
+    <meta property="og:image" content="./banner.png">
+  </head>
+
+  <body>
+    <div id="title">
+        <h1>Mostre a sua lealdade pela Cyber!</h1>
+        <p>Crie sua foto de perfil com nosso filtro charmoso para Telegram :D</p>
+    </div>
+    <div id="original-image-container">
+      <img id="original-image" src="https://i.imgur.com/nYr64Hs.png" />
+    </div>
+    <img
+      id="color"
+      src=""
+    />
+    <input type="file" id="input-file" accept="image/png, image/gif, image/jpeg" />
+    <button id="load-image">Carregar Imagem</button>
+    <button id="generate-image">Gerar Imagem</button>
+    <button id="download-image">Baixar Imagem</button>
+
+    <p>Desenvolvido com 💜 por Yuri Faria do <a href="https://codelab.icmc.usp.br/">Codelab</a></p>
+
+    <script src="https://www.lactame.com/lib/image-js/0.21.2/image.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
